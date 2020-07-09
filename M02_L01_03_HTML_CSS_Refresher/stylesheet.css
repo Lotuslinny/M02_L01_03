@@ -1,0 +1,56 @@
+.gridcontainer {
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.grid-item1, .grid-item2 {
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+}
+.grid-item1 {
+  margin: 10px 10px 10px 30px;
+}
+.grid-item2 {
+  margin: 10px 30px 10px 10px;
+}
+.naam {
+  display: inline-block;
+  margin-right: 10px;
+}
+.grey {
+  color:lightgray;
+  font-size: 20px;
+}
+.under {
+  color: grey;
+  font-size: 20px;
+}
+[class~=approve] {
+  border: 2px solid rgb(14, 214, 38);
+  border-radius: 5px;
+  width: 40%;
+  display: inline-block;
+  text-align: center;
+  color: rgb(14, 214, 38);
+  padding: 10px 10px;
+  margin-left: 20px;  
+  font-size: 20px;
+}
+[class~=decline] {
+  border: 2px solid red;
+  border-radius: 5px;
+  width: 40%;
+  display: inline-block;
+  text-align: center;
+  color:red;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+img.naam {
+  float: right;
+  padding-top: 30px;
+}
+hr {
+  color: lightgray;
+}
